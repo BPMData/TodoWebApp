@@ -6,6 +6,7 @@ if not os.path.exists("todos.txt"):
     with open("todos.txt", "w") as file:
         pass
 
+st.set_page_config(page_title="To-Do App")
 FILEPATH = "todos.txt"
 
 def get_save(filepath=FILEPATH): # everything after the = sign is the default argument/parameter.
